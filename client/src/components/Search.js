@@ -27,9 +27,13 @@ const Search = (props) => {
     
     return (
         <>
-        <div>
-           Book Search 
-           <SearchBar handleSearch={getBooks}/>
+        <div id="searchHead">
+            <h3>(React) Google Books Search</h3>
+                <p>Search for and Save Books of Interest</p>
+        </div>
+        <div id="bookSearch">
+            <p>Book Search</p>
+            <SearchBar handleSearch={getBooks}/>
         </div>
         <div>
             {booksList.map((item)=>

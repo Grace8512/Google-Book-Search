@@ -3,13 +3,14 @@ import Axios from "axios";
 import BookInfo from "./BookInfo";
 const Saved = (props) =>{
     const [booksList, setBooksList] = React.useState([]);
-
+    
     const getSaved = () => {
         Axios.get("/api/books")
         .then(
             (res) => {
-                //console.log(res);
-                const items = res.data.items.map((item)=>{return {
+                console.log(res.data);
+                console.log(res.data.items);
+                const items = res.data.map((item)=>{return {
                     "id": item._id,
                     "title": item.title,
                     "author": item.authors,
@@ -31,6 +32,10 @@ const Saved = (props) =>{
                 }
             );
         };
+
+    React.useEffect(()=>{
+        getSaved();
+    });
 
     return (
         <div>
