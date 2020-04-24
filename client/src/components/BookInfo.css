@@ -1,0 +1,19 @@
+img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    overflow: scroll;
+}
+
+.card-title.h5{
+    overflow: scroll;
+    padding: 20px;
+}
+
+#cardId{
+    border: 1px solid black;
+    margin: 40px;
+    padding: 30px;
+}
