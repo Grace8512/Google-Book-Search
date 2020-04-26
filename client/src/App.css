@@ -17,3 +17,8 @@
   padding: 30px;
   border: 1px solid black;
 }
+
+body {
+  background-image: "../../public/assets/images/img1.jpeg";
+}
+

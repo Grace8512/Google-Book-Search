@@ -17,5 +17,5 @@ This app using React components, work with helper/util functions, and utilize Re
 * React Boot strap
 * Using the [Google Books API](https://developers.google.com/books/docs/v1/getting_started)
 
-
-
+## Deployment
+This App is deployed on Heroku : [Google Books Search](https://googlebook2020.herokuapp.com/)
