@@ -19,11 +19,17 @@
 }
 
 body {
-  background-color: blue;
+  background-image: "../../public/assets/images/img1.jpeg"
 }
 
-/* @media screen and (min-width: 701px) and (max-width: 990px) {
-  #root .card{
+#img {
+  flex: auto;
+  width: 18rem;
+  height: 23rem;
+}
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .card-text{
     width: 100%!important;
   }
 
@@ -31,4 +37,25 @@ body {
     max-height: 12rem;
     overflow: scroll;
   }
-} */
+
+  #img{
+    width:15rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 690px) {
+  .card-text{
+    width: 100%!important;
+  }
+
+  .card-text{
+    max-height: 12rem;
+    overflow: scroll;
+  }
+
+  #img{
+    width: 15rem;
+    height: 20rem;
+  }
+}
