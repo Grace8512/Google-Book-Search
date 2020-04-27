@@ -19,6 +19,16 @@
 }
 
 body {
-  background-image: "../../public/assets/images/img1.jpeg";
+  background-color: blue;
 }
 
+/* @media screen and (min-width: 701px) and (max-width: 990px) {
+  #root .card{
+    width: 100%!important;
+  }
+
+  .card-text{
+    max-height: 12rem;
+    overflow: scroll;
+  }
+} */
