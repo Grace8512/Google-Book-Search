@@ -15,11 +15,7 @@
 .bookInfo {
   margin: 40px;
   padding: 30px;
-  border: 1px solid black;
-}
-
-body {
-  background-image: "../../public/assets/images/img1.jpeg"
+  /* border: 1px solid black; */
 }
 
 #img {

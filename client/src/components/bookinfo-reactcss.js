@@ -16,23 +16,4 @@
                 <Card.Link href="#">Another Link</Card.Link> */}
              </Card.Body> 
          </Card> 
-
-         {/* <div class="bookInfo">
-            <h5>Result</h5>
-           <p id="title"><b>Title: </b>{props.title}</p>
-           <p id="author"><b>Author: </b>{props.author}</p>
-           <p id="desc">
-               <b>Description: </b><br/>
-                {props.description}
-            </p>
-            <b>Book Image: </b><br/>
-            <img id="img" src={props.image}/><br/>
-           <button id="viewBtn" onClick={props.onClickView}>View</button>
-           {props.infoType === "search" ? 
-                <button id="saveBtn" disabled={saved} onClick={()=>saveBook()}>Save</button> : 
-                <button id="deleteBtn" onClick={()=>props.onClickDelete(props.id)}>Delete</button>
-                }
-            
-        </div>  */}
-
         </div>
