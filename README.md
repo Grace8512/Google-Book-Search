@@ -8,6 +8,7 @@ This app using React components, work with helper/util functions, and utilize Re
 `Search`  User can search for books via the Google Books API and render them here.<br>
 `Saved` Renders all books saved to the Mongo database. 
 
+![google web app](https://media.giphy.com/media/giW2ECwvcrserdhuqL/giphy.gif)
 ## Technologies Used
 * MongoDB
 * Express.js
