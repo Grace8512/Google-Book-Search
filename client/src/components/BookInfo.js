@@ -26,6 +26,10 @@ const BookInfo = (props) => {
         }); 
     }     
 
+    const onClickView = (link) => {
+        window.location.assign(link);
+    }
+
     return (
         <div class="card mb-3" id="card" style={{"maxWidth" : "540px;" }}>
             <div class="row no-gutters">
@@ -37,7 +41,7 @@ const BookInfo = (props) => {
                     <h5 class="card-title">{props.title}</h5>
                     <p class="card-text">{props.description}</p>
                     <p class="card-text"><small class="text-muted">{props.author}</small></p>
-                    <button id="viewBtn" variant="link" onClick={props.onClickView}>View</button>
+                    <button id="viewBtn" variant="link" onClick={() => {onClickView(props.link)}}>View</button>
                     {props.infoType === "search" ? 
                     <button id="saveBtn" variant="link" disabled={saved} onClick={()=>saveBook()}>Save</button> : 
                     <button id="deleteBtn" variant="link" onClick={()=>props.onClickDelete(props.id)}>Delete</button>
